@@ -17,7 +17,7 @@ foreach ($hotels as $hotel) {
         </tr>
     </thead>
     <tbody>
-        <?= $template ?>
+        <?php echo $template ?>
 
     </tbody>
 </table>
