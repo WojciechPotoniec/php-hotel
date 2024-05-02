@@ -24,10 +24,18 @@
                 Data Hotels
             </h1>
             <form action="index.php" method="GET" class="d-flex align-items-center">
-                <select class="form-control me-2" name="status">
+                <select class="form-control me-2" name="park">
                     <option value="all">All</option>
                     <option value="1">Hotel with parking</option>
                     <option value="0">Hotel without parking</option>
+                </select>
+                <select class="form-control me-2" name="vote">
+                    <option value="all">All</option>
+                    <option value="1">1 star</option>
+                    <option value="2">2 star</option>
+                    <option value="3">3 star</option>
+                    <option value="4">4 star</option>
+                    <option value="5">5 star</option>
                 </select>
                 <button type="submit" class="btn btn-outline-success">Search</button>
             </form>
