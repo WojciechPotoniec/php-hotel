@@ -26,7 +26,7 @@
             <form action="index.php" method="GET" class="d-flex align-items-center">
                 <select class="form-control me-2" name="status">
                     <option value="all">All</option>
-                    <option value="0">Hotel with parking</option>
+                    <option value="1">Hotel with parking</option>
                 </select>
                 <button type="submit" class="btn btn-outline-success">Search</button>
             </form>
