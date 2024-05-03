@@ -11,9 +11,11 @@ include __DIR__ . "/Views/header.php";
     ?>
     <div class="d-flex justify-content-center align-items-center">
         <div class="card p-5">
-            <form id="loginform" action="login.php" method="POST">
-                <img class="mb-4" src="./images/mobile-logo.png" alt="logo" width="100">
-                <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+            <form class="p-5" id="loginform" action="login.php" method="POST">
+                <div class="d-flex justify-content-center">
+                    <img class="mb-4" src="./img/hotel_logo.jpg" alt="logo" width="120">
+                </div>
+                <h1 class="h3 mb-3 fw-normal text-light text-center">Sign in</h1>
 
                 <div class="form-floating mb-4">
                     <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
@@ -26,4 +28,5 @@ include __DIR__ . "/Views/header.php";
                 <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
             </form>
         </div>
+    </div>
 </main>
