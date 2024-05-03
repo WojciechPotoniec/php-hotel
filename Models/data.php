@@ -3,6 +3,7 @@
 $hotels = [
 
     [
+        'id' => 1,
         'name' => 'Hotel Belvedere',
         'description' => 'Hotel Belvedere Descrizione',
         'parking' => true,
@@ -10,6 +11,7 @@ $hotels = [
         'distance_to_center' => 10.4
     ],
     [
+        'id' => 2,
         'name' => 'Hotel Futuro',
         'description' => 'Hotel Futuro Descrizione',
         'parking' => true,
@@ -17,6 +19,7 @@ $hotels = [
         'distance_to_center' => 2
     ],
     [
+        'id' => 3,
         'name' => 'Hotel Rivamare',
         'description' => 'Hotel Rivamare Descrizione',
         'parking' => false,
@@ -24,6 +27,7 @@ $hotels = [
         'distance_to_center' => 1
     ],
     [
+        'id' => 4,
         'name' => 'Hotel Bellavista',
         'description' => 'Hotel Bellavista Descrizione',
         'parking' => false,
@@ -31,6 +35,7 @@ $hotels = [
         'distance_to_center' => 5.5
     ],
     [
+        'id' => 5,
         'name' => 'Hotel Milano',
         'description' => 'Hotel Milano Descrizione',
         'parking' => true,
