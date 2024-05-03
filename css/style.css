@@ -1,0 +1,10 @@
+body{
+    background-image: url("../img/belvedere.jpg");
+    background-size: cover;
+}
+h5{
+    color: white;
+}
+.card{
+    background-color: rgba(49, 49, 49, 0.200);
+}
