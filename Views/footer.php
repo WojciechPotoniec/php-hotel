@@ -1,6 +1,6 @@
 <footer>
     <div class="container text-center">
-        made with &hearts; by Wojciech
+        <h5>made with &hearts; by Wojciech</h5>
     </div>
 
 </footer>
