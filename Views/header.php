@@ -1,6 +1,3 @@
-<?php
-include __DIR__ . "/../controller/auth.php";
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,6 +18,9 @@ include __DIR__ . "/../controller/auth.php";
 </head>
 
 <body>
+<?php
+if (isset($_SESSION['userId'])) {
+    ?>
     <header>
         <div class="container d-flex justify-content-between">
             <h1>
@@ -44,3 +44,5 @@ include __DIR__ . "/../controller/auth.php";
             </form>
         </div>
     </header>
+    <?php
+} ?>
