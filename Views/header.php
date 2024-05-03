@@ -1,3 +1,6 @@
+<?php
+include __DIR__ . "/../controller/auth.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,8 +40,7 @@
                     <option value="4">4 star</option>
                     <option value="5">5 star</option>
                 </select>
-                <button type="submit" class="btn btn-outline-success">Search</button>
+                <button type="submit" class="btn btn-primary">Search</button>
             </form>
         </div>
-
     </header>
